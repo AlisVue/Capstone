@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffe05f;
+}
+
+
+
+header {
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #113c66; 
+    padding: 10px 35px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #c70000;
+    z-index: 9999;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+.hero {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 100%;
+    padding: 20em;
+}
+
+.hero-h3 {
+    font-size: 5em;
+}
+
+.hero-h5 {
+    font-size: 2em;
+}
+
+.hero-form {
+    background-color: #ffe05f ; 
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.split {
+    display: flex;
+    justify-content: space-around;
+}
+
+#loginForm, #signUpForm {
+    padding: 60px;
+}
+
+
+.fieldsetSignup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 10px; 
+    width: 100%;
+}
+
+.fieldsetLogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 10px; 
+    width: 35%;
+}
+
+.girlImg {
+    width: 40%;
+    height: 40%;
+    padding: 60px;
+}
+
+.boyImg {
+    width: 40%;
+    height: 40%;
+    padding: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+th {
+    text-align: center;
+    padding-right: 25px;
+}
+
+td {
+    text-align: center;
+    padding-right: 25px;
+}
+
+.nav ul li {
+    text-align: center;
+    padding-right: 25px;
+}

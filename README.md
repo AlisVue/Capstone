@@ -11,4 +11,5 @@ In the assets folder is where all the javascripts, images, and css is located fo
 
 #GITHUB
 https://github.com/AlisVue/Capstone
+https://alisvue.github.io/Capstone/ github pages
 
